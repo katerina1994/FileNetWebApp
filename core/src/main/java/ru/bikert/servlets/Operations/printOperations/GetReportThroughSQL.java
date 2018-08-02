@@ -9,8 +9,10 @@ import com.filenet.api.property.Properties;
 import com.filenet.api.query.SearchSQL;
 import com.filenet.api.query.SearchScope;
 import com.filenet.api.util.Id;
+import net.sf.jasperreports.engine.JRException;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+import ru.bikert.report.PrintReport;
 import ru.bikert.servlets.NamingOperation;
 import ru.bikert.servlets.Operations.Operation;
 import ru.bikert.servlets.Operations.OperationHelper;
@@ -20,6 +22,7 @@ import java.text.SimpleDateFormat;
 import java.util.Iterator;
 
 public class GetReportThroughSQL extends Operation {
+
 
     public GetReportThroughSQL() {
         super(NamingOperation.REPORT,NamingOperation.NameButtonOperation.REPORT);
@@ -42,7 +45,9 @@ public class GetReportThroughSQL extends Operation {
             JSONObject child = getValueOfDocumentPropertiesWithSQL(properties);
             children.add(child);
         }
+
         documentJsonObject.put("children", children);
+        PrintReport.printReport(children);
         return documentJsonObject;
     }
 

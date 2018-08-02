@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a4da66b-0bca-43cf-9e22-ccf68592a192" name="Default" comment="" />
+    <list default="true" id="7a4da66b-0bca-43cf-9e22-ccf68592a192" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/ru/bikert/report/JsonToDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/ru/bikert/report/PrintReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/ru/bikert/filenet/FileNetManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/bikert/filenet/FileNetManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/IndexServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/buttonOperation/ReportOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/buttonOperation/ReportOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/printOperations/GetReportThroughSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/printOperations/GetReportThroughSQL.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/web-interface/target/" />
@@ -15,35 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RequestHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/RequestHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="56" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OperationServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/OperationServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="87" column="57" lean-forward="true" selection-start-line="87" selection-start-column="57" selection-end-line="87" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FileNetManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/filenet/FileNetManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="111" column="31" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="31" />
+            <state relative-caret-position="700">
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
             </state>
           </provider>
         </entry>
@@ -51,8 +40,46 @@
       <file leaf-file-name="FileNetConstants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/FileNetConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="49" />
+            <state relative-caret-position="306">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintReport.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/report/PrintReport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportOperation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/buttonOperation/ReportOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonToDataSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/report/JsonToDataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#770#771#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,31 +87,53 @@
       <file leaf-file-name="PropertyNameConstant.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/PropertyNameConstant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="349">
+              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetReportThroughSQL.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/printOperations/GetReportThroughSQL.java">
+      <file leaf-file-name="JRFillDataset.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/net/sf/jasperreports/jasperreports/6.6.0/jasperreports-6.6.0.jar!/net/sf/jasperreports/engine/fill/JRFillDataset.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="128">
+              <caret line="924" selection-start-line="924" selection-end-line="924" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyFirstReport.jrxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/resources/MyFirstReport.jrxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JRFillField.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/net/sf/jasperreports/jasperreports/6.6.0/jasperreports-6.6.0.jar!/net/sf/jasperreports/engine/fill/JRFillField.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
+                <element signature="e#2025#2026#0" expanded="true" />
+                <element signature="e#2061#2062#0" expanded="true" />
+                <element signature="e#2214#2215#0" expanded="true" />
+                <element signature="e#2256#2257#0" expanded="true" />
+                <element signature="e#2290#2291#0" expanded="true" />
+                <element signature="e#3313#3314#0" expanded="true" />
+                <element signature="e#3369#3370#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OperationHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/OperationHelper.java">
+      <file leaf-file-name="GetReportThroughSQL.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/printOperations/GetReportThroughSQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="52" column="5" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="380">
+              <caret line="49" column="40" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,6 +151,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DOCUMENT_STATUS</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -121,7 +178,6 @@
         <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/ReqvestHelper.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/GetHierarchyOperation.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/DeliteOperation.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/Operation.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/DeleteOperation.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/CreateOperation.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/GetCurrentChildrenOperation.java" />
@@ -130,28 +186,32 @@
         <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/printOperations/GetEmpoty.java" />
         <option value="$PROJECT_DIR$/web-interface/src/main/webapp/js/printOperation/printReport.js" />
         <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/NamingOperation.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/IndexServlet.java" />
         <option value="$PROJECT_DIR$/web-interface/src/main/webapp/js/printOperation/printEmployee.js" />
         <option value="$PROJECT_DIR$/web-interface/src/main/webapp/js/printOperation/printHierarchy.js" />
         <option value="$PROJECT_DIR$/web-interface/src/main/webapp/js/index.js" />
         <option value="$PROJECT_DIR$/web-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/core/pom.xml" />
         <option value="$PROJECT_DIR$/web-interface/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/buttonOperation/EditOperation.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/buttonOperation/DeleteOperation.java" />
         <option value="$PROJECT_DIR$/web-interface/src/main/webapp/js/utils/webApi.js" />
         <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/RequestHelper.java" />
         <option value="$PROJECT_DIR$/web-interface/src/main/webapp/hierarchy.jsp" />
-        <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/printOperations/GetEmployee.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/printOperations/GetCurrentChildrenOperation.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/buttonOperation/CreateOperation.java" />
         <option value="$PROJECT_DIR$/web-interface/src/main/webapp/js/printOperation/buttenStartOperation.js" />
-        <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/filenet/FileNetManager.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/OperationHelper.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/OperationServlet.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/buttonOperation/ReportOperation.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/PropertyNameConstant.java" />
+        <option value="$PROJECT_DIR$/core/pom.xml" />
+        <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/Operation.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/filenet/FileNetManager.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/printOperations/GetEmployee.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/IndexServlet.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/buttonOperation/ReportOperation.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/printOperations/GetReportThroughSQL.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/report/MyDataSource.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/report/PrintReport.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/ru/bikert/report/JsonToDataSource.java" />
       </list>
     </option>
   </component>
@@ -184,50 +244,48 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
+              <item name="FileNetWebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileNetWebApp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
+              <item name="FileNetWebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileNetWebApp" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
+              <item name="FileNetWebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileNetWebApp" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
+              <item name="FileNetWebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileNetWebApp" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
+              <item name="FileNetWebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileNetWebApp" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
+              <item name="FileNetWebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileNetWebApp" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -235,8 +293,8 @@
               <item name="bikert" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
+              <item name="FileNetWebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileNetWebApp" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -245,8 +303,18 @@
               <item name="filenet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
+              <item name="FileNetWebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileNetWebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bikert" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FileNetWebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileNetWebApp" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -255,8 +323,8 @@
               <item name="servlets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
+              <item name="FileNetWebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileNetWebApp" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -266,8 +334,8 @@
               <item name="Operations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
+              <item name="FileNetWebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileNetWebApp" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -278,8 +346,8 @@
               <item name="buttonOperation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
+              <item name="FileNetWebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileNetWebApp" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -290,101 +358,56 @@
               <item name="printOperations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
+              <item name="FileNetWebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileNetWebApp" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
+              <item name="FileNetWebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileNetWebApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
-              <item name="web-interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
-              <item name="web-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
-              <item name="web-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="FileNetWebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileNetWebApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
-              <item name="web-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="FileNetWebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
-              <item name="web-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="FileNetWebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: net.sf.jasperreports:jasperreports:6.6.0" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
-              <item name="web-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
-              <item name="web-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="printOperation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
-              <item name="web-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filenetwebinterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filenetwebinterface" type="462c0819:PsiDirectoryNode" />
-              <item name="web-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="FileNetWebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: net.sf.jasperreports:jasperreports:6.6.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="jasperreports-6.6.0.jar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/glassfish5/glassfish/domains/DomainNew/applications/hierarchy.war" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web-interface/target/hierarchy.war" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -411,11 +434,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="GlassFish Server.Unnamed">
+  <component name="RunManager" selected="GlassFish Server.Start">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Unnamed" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.0" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+    <configuration name="Start" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.0" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/hierarchy/index" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -571,7 +594,7 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="GlassFish Server.Unnamed" />
+      <item itemvalue="GlassFish Server.Start" />
       <item itemvalue="Maven.Clean" />
       <item itemvalue="Maven.Package" />
     </list>
@@ -590,11 +613,13 @@
       <workItem from="1532703736785" duration="89429000" />
       <workItem from="1533042572837" duration="4315000" />
       <workItem from="1533046955219" duration="17029000" />
+      <workItem from="1533122621665" duration="16363000" />
+      <workItem from="1533200203480" duration="7387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131183000" />
+    <option name="totallyTimeSpent" value="154933000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -610,26 +635,26 @@
       <window_info anchor="bottom" id="Application Servers" order="0" sideWeight="0.49947917" weight="0.32897604" />
       <window_info anchor="right" id="Maven Projects" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Run" order="8" sideWeight="0.72228146" weight="0.41067538" />
-      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21375267" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21801706" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info active="true" anchor="bottom" id="Debug" order="9" sideWeight="0.48400852" visible="true" weight="0.44444445" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Debug" order="9" sideWeight="0.48400852" visible="true" weight="0.44444445" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="6" sideWeight="0.49947917" weight="0.32897604" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="6" sideWeight="0.49947917" weight="0.32897604" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="0" sideWeight="0.49947917" weight="0.32943678" />
@@ -716,16 +741,34 @@
           <option name="timeStamp" value="169" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/printOperations/GetReportThroughSQL.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="170" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/OperationHelper.java</url>
           <line>38</line>
           <properties />
           <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/ru/bikert/report/PrintReport.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/ru/bikert/report/PrintReport.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/ru/bikert/report/PrintReport.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/ru/bikert/report/PrintReport.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="215" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/web-interface/src/main/webapp/js/index.js</url>
@@ -770,11 +813,10 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/web-interface/src/main/webapp/js/utils/webApi.js</url>
           <line>51</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="146" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="178" />
+      <option name="time" value="230" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GlassfishConfiguration">
@@ -784,6 +826,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>object.get(PropertyNameConstant.Property.documentStatus)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>document.fetchProperties(new String[] {&quot;documentStatus&quot;})</expression-string>
         <language-id>JAVA</language-id>
@@ -829,39 +876,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>doc.get_Name()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-410">
-          <caret line="632" column="16" selection-start-line="632" selection-start-column="16" selection-end-line="632" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/filenet/Jace/5.2.1/Jace-5.2.1.jar!/com/filenet/api/core/Factory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="650" column="50" selection-start-line="650" selection-start-column="50" selection-end-line="650" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/PrintHierarchy_old.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/main/resources/log4j.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-interface/target/web-interface-1.0-SNAPSHOT/js/index.js" />
-    <entry file="file://$PROJECT_DIR$/web-interface/target/hierarchy/js/hierarchy.js" />
-    <entry file="file://$PROJECT_DIR$/web-interface/target/hierarchy/js/indexHierarhcy.js" />
     <entry file="file://$PROJECT_DIR$/web-interface/target/hierarchy/hierarchy.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -932,13 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/NamingOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/buttonOperation/TrunsferDocumentOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -953,9 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="29" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -966,37 +973,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/printOperations/GetEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/IndexServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="66" lean-forward="true" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1062,13 +1042,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/filenet/FileNetConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1080,16 +1053,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1123,18 +1086,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/buttonOperation/ReportOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="20" column="81" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/buttonOperation/EditOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1155,51 +1106,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/PropertyNameConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/FileNetConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/filenet/FileNetManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="111" column="31" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/OperationServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="87" column="57" lean-forward="true" selection-start-line="87" selection-start-column="57" selection-end-line="87" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/RequestHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
+        <state relative-caret-position="748">
           <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="56" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/OperationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="748">
+          <caret line="52" column="5" selection-start-line="35" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/NamingOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/OperationServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/filenet/FileNetManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/printOperations/GetEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/IndexServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/FileNetConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/jasperreports/jasperreports/6.6.0/jasperreports-6.6.0.jar!/net/sf/jasperreports/engine/fill/JRVerticalFiller.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/jasperreports/jasperreports/6.6.0/jasperreports-6.6.0.jar!/net/sf/jasperreports/engine/fill/JRBaseFiller.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="404" selection-start-line="404" selection-end-line="404" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/jasperreports/jasperreports/6.6.0/jasperreports-6.6.0.jar!/net/sf/jasperreports/engine/fill/JRFillField.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#2025#2026#0" expanded="true" />
+            <element signature="e#2061#2062#0" expanded="true" />
+            <element signature="e#2214#2215#0" expanded="true" />
+            <element signature="e#2256#2257#0" expanded="true" />
+            <element signature="e#2290#2291#0" expanded="true" />
+            <element signature="e#3313#3314#0" expanded="true" />
+            <element signature="e#3369#3370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/buttonOperation/ReportOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1208,12 +1240,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/printOperations/GetReportThroughSQL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="380">
+          <caret line="49" column="40" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/jasperreports/jasperreports/6.6.0/jasperreports-6.6.0.jar!/net/sf/jasperreports/engine/fill/JRFillDataset.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="924" selection-start-line="924" selection-end-line="924" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/servlets/Operations/PropertyNameConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/resources/MyFirstReport.jrxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/report/JsonToDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/ru/bikert/report/PrintReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1221,6 +1294,32 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>filenetwebinterface:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -1244,8 +1343,22 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>filenet-web-interface</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

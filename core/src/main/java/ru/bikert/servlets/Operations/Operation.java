@@ -1,5 +1,6 @@
 package ru.bikert.servlets.Operations;
 
+import net.sf.jasperreports.engine.JRException;
 import org.json.simple.JSONObject;
 import ru.bikert.filenet.FileNetManager;
 

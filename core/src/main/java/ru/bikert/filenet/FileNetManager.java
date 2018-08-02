@@ -114,6 +114,7 @@ public class FileNetManager {
         SearchSQL searchSQL = new SearchSQL(query);
         SearchScope searchScope = new SearchScope(objectStore);
         IndependentObjectSet objects = searchScope.fetchObjects(searchSQL, null, null, true);
+
         return objects;
     }
 }

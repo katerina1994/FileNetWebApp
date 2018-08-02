@@ -1,5 +1,6 @@
 package ru.bikert.servlets;
 
+import com.filenet.api.core.CustomObject;
 import com.filenet.api.core.IndependentObject;
 import ru.bikert.servlets.Operations.buttonOperation.*;
 import ru.bikert.servlets.Operations.Operation;
@@ -15,11 +16,12 @@ import java.util.Map;
 public class IndexServlet extends HttpServlet {
 
     private static Map<String, Operation> operations = new HashMap<>();
-    private static IndependentObject currentEmployee;
+    private static CustomObject currentEmployee;
 
-    public static void setCurrentEmployee(IndependentObject currentEmployee) { IndexServlet.currentEmployee = currentEmployee; }
+    public static void setCurrentEmployee(CustomObject currentEmployee) { IndexServlet.currentEmployee = currentEmployee; }
 
-    public static IndependentObject getCurrentEmployee() { return currentEmployee; }
+    public static CustomObject getCurrentEmployee() { return currentEmployee; }
+
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

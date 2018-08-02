@@ -17,6 +17,7 @@ import java.util.Iterator;
 
 public class ReportOperation extends Operation {
 
+
     public ReportOperation() {
         super(NamingOperation.REPORT,NamingOperation.NameButtonOperation.REPORT);
     }
