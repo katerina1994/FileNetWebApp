@@ -2,7 +2,6 @@ package ru.bikert.servlets.Operations.buttonOperation;
 
 import com.filenet.api.collection.DocumentSet;
 import com.filenet.api.collection.FolderSet;
-import com.filenet.api.core.CustomObject;
 import com.filenet.api.core.Document;
 import com.filenet.api.core.Folder;
 import org.json.simple.JSONArray;
@@ -10,9 +9,7 @@ import org.json.simple.JSONObject;
 import ru.bikert.servlets.NamingOperation;
 import ru.bikert.servlets.Operations.Operation;
 import ru.bikert.servlets.Operations.OperationHelper;
-import ru.bikert.servlets.Operations.PropertyNameConstant;
 
-import java.text.SimpleDateFormat;
 import java.util.Iterator;
 
 public class ReportOperation extends Operation {

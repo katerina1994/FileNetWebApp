@@ -29,12 +29,12 @@ public class JsonToDataSource implements JRDataSource {
         JSONObject object = (JSONObject) data.get(index);
         switch (jrField.getName()){
             case "DOCUMENT_TITLE":  return object.get("name");
-            case "DATE_APPROVAL":  return object.get(PropertyNameConstant.Property.dateApproval);
-            case "RESPONSIBLE":  return object.get(PropertyNameConstant.Property.Responsible);
-            case "DOCUMENT_STATUS":  {System.out.println(object.get(PropertyNameConstant.Property.documentStatus)); return object.get(PropertyNameConstant.Property.documentStatus);}
-            case "NUMBER_DOCUMENT":  return object.get(PropertyNameConstant.Property.numberDocument).toString();
-            case "MAJOR_VERSION":  return object.get("MajorVersion").toString();
-            case "MINOR_VERSION":  return object.get("MinorVersion").toString();
+            case "DATE_APPROVAL":   return object.get(PropertyNameConstant.Property.dateApproval);
+            case "RESPONSIBLE":     return object.get(PropertyNameConstant.Property.Responsible);
+            case "DOCUMENT_STATUS": return object.get(PropertyNameConstant.Property.documentStatus);
+            case "NUMBER_DOCUMENT": return object.get(PropertyNameConstant.Property.numberDocument).toString();
+            case "MAJOR_VERSION":   return object.get("MajorVersion").toString();
+            case "MINOR_VERSION":   return object.get("MinorVersion").toString();
         }
         return null;
     }
