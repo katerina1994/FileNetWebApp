@@ -3,7 +3,7 @@ import {postJSON} from "../utils/webApi.js";
 export async function replaceEmployee() {
     let currentEmployee;
     try {
-        currentEmployee = await postJSON("/hierarchy/operation", {nameOperation: "printCurrentEmployee"});
+        currentEmployee = await postJSON("/hierarchyold/operation", {nameOperation: "printCurrentEmployee"});
     }catch (e) {
     }
     printEmployee(currentEmployee);

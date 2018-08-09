@@ -3,7 +3,7 @@ import {postJSON} from "../utils/webApi.js";
 export async function reportOperation() {
     let rootFolder;
     try {
-        rootFolder = await postJSON("/hierarchy/operation", {nameOperation: "report"});
+        rootFolder = await postJSON("/hierarchyold/operation", {nameOperation: "report"});
     } catch (e) {
         rootFolder = {"children": [
                 {"dateApproval":"30.07.2018","name":"Document1","documentStatus":"Утвержден","numberDocument":4.69088275E8,"class":"Contract"},

@@ -11,5 +11,8 @@
         <module name="webinterface" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gwt" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

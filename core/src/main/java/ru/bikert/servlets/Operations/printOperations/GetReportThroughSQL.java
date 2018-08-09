@@ -47,7 +47,7 @@ public class GetReportThroughSQL extends Operation {
         }
 
         documentJsonObject.put("children", children);
-        PrintReport.printReport(children);
+        PrintReport.printReport(children, "");
         return documentJsonObject;
     }
 

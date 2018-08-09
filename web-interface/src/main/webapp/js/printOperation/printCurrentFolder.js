@@ -3,7 +3,7 @@ import {postJSON} from "../utils/webApi.js";
 export async function printCurrentFolder(path) {
     let currentFolder;
     try {
-        currentFolder = await postJSON("/hierarchy/operation", {nameOperation: "printCurrentFolder", path: path});
+        currentFolder = await postJSON("/hierarchyold/operation", {nameOperation: "printCurrentFolder", path: path});
     }catch (e) {
         currentFolder = {
             parent: "No Children"

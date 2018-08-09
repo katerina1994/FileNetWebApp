@@ -4,7 +4,7 @@ import {printCurrentFolder} from "./printCurrentFolder.js";
 export async function printHierarchy() {
     let rootFolder;
     try {
-        rootFolder = await postJSON("/hierarchy/operation", {nameOperation: "getHierarchy"});
+        rootFolder = await postJSON("/hierarchyold/operation", {nameOperation: "getHierarchy"});
     } catch (e) {
         rootFolder = {
             name: "Folder1",

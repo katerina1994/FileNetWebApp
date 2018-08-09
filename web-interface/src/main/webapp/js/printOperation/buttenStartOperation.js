@@ -5,7 +5,7 @@ import {postJSON, sendAjaxForm, postForm} from "../utils/webApi.js";
 export async function printButtonOperation() {
     let buttonList;
     try {
-        buttonList = await postJSON("/hierarchy/operation", {nameOperation: "printButtonList"});
+        buttonList = await postJSON("/hierarchyold/operation", {nameOperation: "printButtonList"});
     } catch (e) {
 
     }
